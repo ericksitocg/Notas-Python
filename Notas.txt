@@ -1,0 +1,113 @@
+Python trae por defecto un IDE o shell
+
+>>> se denomina prompt, el cual marca el inicio donde escribiremos las instruccion o linea de codigo hasta el final
+al presionar ENTER se ejecuta la instruccion.
+
+print("Hola") es una instruccion de imprimir
+
+# este es un comentario, ayuda referente al codigo o realizar pruebas, invalidar codigo
+
+Con \ podemos seguir escribiendo codigo debajo de la linea
+
+La identacion es lo que permite distinguir que codigo va dentro de un bloque, se usa el tab y solo se puede usar 1 tipo de identacion
+
+Tipos de datos en Python{
+	
+	Numericos{
+		Enteros (int)
+		Flotantes (float)
+		Complejos (complex)
+	}
+
+	Textos{
+		string
+	}
+
+	Booleanos{
+		boolean:{
+			True
+			False
+		}
+	}
+
+Operadores en Python{
+	
+	aritmeticos{
+		+,-,*,/,%,**,// division entera
+	}
+
+	comparacion{
+		==,!=,>,>=,<,<=
+	}
+
+	logicos{
+		and,or,not
+	}
+
+	asignacion{
+		=,+=,-=,*=./=,%=,**=,//=
+	}
+
+	especiales{
+		is, is not,in,in not
+	}
+
+}	
+
+Una variable es un espacio en la memoria del ordenador que almacenara un valor, que podra cambiar durante la ejecucion del programa.
+
+La consola se puede usar como calculadora
+
+Modulo es el residuo de una division: 10/3 = 3 con residuo 1
+
+Division entera muestra la parte entera en lugar de dar la division exacta
+
+Para declarar una variable en python, se escribe el nombre de la variable solo con texto o numeros pero no caracters especiales y _, no se permiten los espacios, el _ reemplaza el espacio,, seguido de = asignacion
+
+numero = 5 entonces la variable es entera.
+
+A las variables le aplicamos las funciones definidas, por ejemplo la funcion type() que lo tiene toda variable
+
+nombre = 5
+type(nombre)
+nombre = 5.6
+nombre = "gato"
+
+mensaje = """ Esto es un mensaje
+con 3 saltos de
+de linea, para eso sirve las 3 comillas"""
+
+CONDICIONALES
+
+if en español si, sirve para evaluar una condicion y hacer una accion en caso de que si se cumpla
+
+if 1 > 2 :
+	print("El uno es mayor que dos")
+
+else en español sino, ejecuta la instruccion en caso de que la condicion del if no se cumpla
+
+if condicion(usando operadores de comparacion):
+	instruccion en caso que la condicion sea True
+else:
+	instruccion en caso que la condicion sea False
+
+FUNCIONES
+
+Varias lineas de codigo formando un bloque grupo, y que realiza una tarea especifica
+
+Pueden devolver valores, y tambien pueden tener parametros o argumentos
+
+Funciones tambien se lo denomina metodo,existen funciones predefinidas y las que nosotros creamos
+
+¿PORQUE?
+
+Se usa para reutilizar el codigo, cuando sea necesario modularizacion
+
+def nombre_funcion(parametro1,parametro2):
+	instrucciones que trabajan con los parametros
+	return variable o parametroa retornar 
+
+Los parametros y el return son opcionales
+
+Para ejecutar la funcion, solo se escribe el nombre y los parametros en caso de que los tenga.
+nombre_funcion(parametro)
